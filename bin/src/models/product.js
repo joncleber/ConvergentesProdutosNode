@@ -29,10 +29,10 @@ const schema = new Schema({
         required: true,
         default: true
     },
-    tags: {// array de tags para informacoes referente ao produto
+    tags: [{// array de tags para informacoes referente ao produto
         type: String,
         required: true
-    },
+    }],
     image: { //image do produto
         type: String,
         required: true,
